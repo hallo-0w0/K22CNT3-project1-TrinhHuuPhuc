@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2a3b4c;
+    color: #ee5656;
+    text-align: center;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav li a:hover {
+    color: #f44336;
+}
+
+.hero {
+    background-size: cover;
+    color: rgb(189, 220, 128);
+    text-align: center;
+    padding: 50px;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff6347;
+}
+
+.hero p {
+    color: #000000;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero a.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero a.btn:hover {
+    background-color: #ff6347;
+}
+
+.hero .fun-fact {
+    color: #888;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.hero .invite {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer-content {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-content .contact {
+    flex-basis: 48%;
+}
+
+.footer-content a {
+    color: #fff;
+    background-color: #2a3b4c;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-content a:hover {
+    background-color: #f44336;
+}
+
+footer {
+    background-color: #2a3b4c;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    z-index: 1;
+}
